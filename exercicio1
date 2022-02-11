@@ -1,0 +1,17 @@
+num = int(input("digite um numero:"))
+print("valor digitado foi",num)
+
+digitado = int(input("se o valor está correto digite [1]se nao [2]"))
+  
+if digitado == 2:
+
+  num = int(input("digite um numero:"))
+  print("valor digitado foi",num)
+  digitado = int(input("se o valor está correto digite [1]se nao [2]"))
+
+if digitado == 1:
+  print("ok, tchaw...")
+
+if digitado != 1 or 2:
+    print("valor errado:")
+    
