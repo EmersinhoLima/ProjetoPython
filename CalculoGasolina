@@ -1,0 +1,16 @@
+litroPkm = 20;
+pLitro = 6.28;
+dinheiro = 0;
+gasolina = 0;
+trabalho = 14;
+
+dinheiro = float(input("Quanto dinheiro voce tem? "));
+
+litros = (dinheiro/pLitro)
+km = (litros*13)
+trajeto = (km/trabalho)
+
+print("vai consumir {:.3f} ".format(litros),"litros")
+print("vai rodar {:.1f} ".format(km),"km")
+print("vai trabalhar {:.0f} ".format(trajeto),"dias")
+
