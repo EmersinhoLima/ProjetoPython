@@ -1,0 +1,21 @@
+salBrut = 0;
+IR = 0;
+INSS = 0;
+Sindicato = 0
+SalLiq = 0;
+
+hora = float(input("Valor ganho por hora: "))
+hrMes = int(input("Horas trabalhadas no mes: "))
+
+salBrut = hora*hrMes
+IR = (salBrut*11)/100
+INSS = (salBrut*8)/100
+Sindicato = (salBrut*5)/100
+SalLiq = salBrut-(IR+INSS+Sindicato)
+
+
+print("salario R$",salBrut)
+print("IR R$",IR)
+print("INSS R$",INSS)
+print("Sindicato",Sindicato)
+print("Salario Líquido R$", SalLiq)
