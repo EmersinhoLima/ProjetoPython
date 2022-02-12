@@ -1,0 +1,7 @@
+
+metros = float(input("digite o total de metros: "))
+
+convert = metros*100
+
+print("tem {:.1f}".format(convert),"centímetros")
+
