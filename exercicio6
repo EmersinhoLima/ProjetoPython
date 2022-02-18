@@ -1,0 +1,31 @@
+
+
+print("Bem vindo a confederação Brasileira de Natação")
+
+idade = 0;
+
+while idade != 'sair':
+  
+    idade = int(input("Digite sua Idade: "))
+    
+    if idade > 4 and idade < 8:
+          print("categoria Infantil A")
+        
+        
+    if idade > 7 and idade < 11:
+          print("categoria Infantil B")
+        
+        
+    if idade > 10 and idade < 14:
+          print("categoria Juvenil A")
+        
+        
+    if idade > 13 and idade < 18:
+          print("categoria Juvenil B")
+    
+    
+    if idade > 17:
+          print("categoria Senior")
+    else: 
+          print("idade diferente digite a correta: ")
+
