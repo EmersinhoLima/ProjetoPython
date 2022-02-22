@@ -1,0 +1,20 @@
+
+tam = int(input("Digite o tamanho em metros quadrados "))
+
+litros = round (tam/3)
+
+if litros <= 18:
+  
+  latas =+ 1
+  
+  print('Voce irá usar',latas,'latas de tinta')
+  print ('Valor total: {:.2f}'.format(latas * 80))
+
+else:
+  latas = round(litros/18+0.5)
+  
+  print('Irá usar : ',latas)
+  dindin = latas*80
+  
+  print('O valor ficará em: {:.2f}'.format(dindin))
+  
