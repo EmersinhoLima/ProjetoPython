@@ -1,0 +1,11 @@
+  
+arquivo = int(input('Digite o tamanho de um arquivo em MB: '))
+
+calc = arquivo *8
+
+internet = int(input('Velocidade da Internet(Mbps)'))
+
+tempo = (calc/internet)/60
+
+print('tempo em minutos: {:.2f}'.format(tempo))
+
