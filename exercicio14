@@ -1,0 +1,7 @@
+pro1 = float(input('Informe o preço do primeiro produto'))
+pro2 = float(input('Informe o preço do segundo produto'))
+pro3 = float(input('Informe o preço do terceiro produto'))
+
+preco = min(pro1,pro2,pro3)
+
+print('o produto a se comprar é {:.2f}'.format(preco))
